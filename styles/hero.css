@@ -6,7 +6,6 @@
     margin-top: -4px;
     /* margin-bottom: -4px; */
     color: #ffffff;
-
 }
 
 /* left column */
@@ -34,12 +33,10 @@
 /* right column */
 .hero-section > .right-text {
     display: grid;
-
 }
 
 .hero-section > .right-text > .codepen {
     font-size: 1.5em;    
-    /* font-weight: bold; */
     color: #75d6e6;
     padding: 0px 15px;
 }
@@ -50,7 +47,7 @@
 
 .hero-section > .right-text > .img-wrapper img {
     border: 1px solid #333;
-    width: 100%;
+    width: 620px;
     box-shadow: 0 0 50px rgba(0,0,0,0.75);
     clip-path: inset(0 0 0 -50px);
 }
