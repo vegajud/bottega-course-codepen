@@ -1,0 +1,82 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 180px;
+    height: 100%;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 0.9fr;
+    padding: 0px 100px 0px 0px;
+    width: 650px;
+}
+
+.navigation-wrapper > .center-column > .explore-bdg {
+    display: flex;
+    padding: 0px 20px;
+    font-size: 1em;
+    color: gold;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 90px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.gray-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+}
+
+.navigation-wrapper > .right-column > .gray-btns > .search-icon {
+    font-size: 1.8em;
+    color: #7b7e8b;
+    padding: 8px;
+}

@@ -1,0 +1,20 @@
+/* Common Styles */
+body {
+    margin:  0px;
+    font-family: "Lato", sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.page-layout {
+    padding: 0px 0px 40px 0px;
+    background: #4c5159;
+    background: linear-gradient(125deg, rgba(76, 81, 89, 1) 2%, rgba(44, 47, 52, 1) 40%, rgba(21, 23, 26, 1) 61%);
+}

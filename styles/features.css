@@ -1,0 +1,31 @@
+.features-section {
+    display: flex;
+    margin-left: -4px;
+    margin-right: -4px;
+    height: 20px;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f424c;
+    color: #ffffff;
+    font-size: 1.5em; 
+
+}
+
+.features-section > .codepen-for {
+    padding: 12px;
+    width: 400px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7b7e8b;
+}
+
+.features-section > .codepen-for > span  {
+    font-size: 1em;
+}
+
+.features-section > .codepen-for > span b {
+    font-weight: 1000;
+    font-size: 1.2em;
+}

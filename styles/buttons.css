@@ -1,0 +1,115 @@
+/* .btn {
+    background-color: #45ce7f;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 15px;
+    border: 2px solid #45ce7f;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+} */
+ 
+.spark-btn {
+    color: #7b7e8b;
+    font-size: 1.5em;
+    padding: 0px 80px;
+    width: 90px;
+}
+
+.create-btn {
+    background-color: #3f424c;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border: 2px solid #3f424c;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.create-btn i {
+    color: #45ce7f;
+}
+
+.login-btn {
+    background-color: #3f424c;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border: 2px solid #3f424c;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.signup-btn {
+    background-color: #3f424c;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border: 2px solid #3f424c;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+    padding: 20px 0px;
+}
+
+.freesignup-btn {
+    background-color: #45ce7f;
+    color: #11122b;
+    font-size: 2.2em;
+    padding: 15px 25px;
+    border: 2px solid #45ce7f;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.learn-btn {
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 2.2em;
+    padding: 15px 25px;
+    border: 2px solid #111111;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.create-btn:active {
+    background-color:#252830;
+    border: 2px solid #252830;
+    color: #ffffff;
+}
+
+.login-btn:active {
+    background-color:#252830;
+    border: 2px solid #252830;
+    color: #ffffff;
+}
+
+.signup-btn:active {
+    background-color:#252830;
+    border: 2px solid #252830;
+    color: #ffffff;
+}
+
+.freesignup-btn:active {
+    background-color:#1e8c4b;
+    border: 2px solid #1e8c4b;
+    color: #ffffff;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.learn-btn:active {
+    background-color:#3f424c;
+    border: 2px solid #3f424c;
+    color: #111111;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
